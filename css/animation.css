@@ -1,0 +1,35 @@
+/*=================================================*/
+/*ANIMAÇÃO HOME*/
+/*=================================================*/
+.anim-one {
+  animation-delay: 0s;
+}
+
+.anim-two {
+  animation-delay: 0.5s;
+}
+
+.anim-three {
+  animation-delay: 1s;
+}
+
+
+.animate {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  z-index: -1;
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

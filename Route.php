@@ -11,6 +11,8 @@ class Router extends RouteSwitch {
 
     if ($destino === '') {
         $this->home();
+    } elseif ($destino == 'Sobre') {
+        $this->sobre();
     } elseif ($destino == 'Projetos') {
         $this->projetos();
     } elseif ($destino == 'Contato') {

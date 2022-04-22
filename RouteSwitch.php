@@ -4,7 +4,7 @@ require_once __DIR__ . '/Render.php';
 
 abstract class RouteSwitch {
   protected function home() {
-    renderView("DEV", "sobre");
+    renderView("DEV", "home");
   }
 
   protected function sobre() {
