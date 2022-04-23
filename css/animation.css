@@ -2,17 +2,20 @@
 /*ANIMAÇÃO HOME*/
 /*=================================================*/
 .anim-one {
-  animation-delay: 0s;
+  animation-delay: 0s !important;
 }
 
 .anim-two {
-  animation-delay: 0.5s;
+  animation-delay: 0.5s !important;
 }
 
 .anim-three {
-  animation-delay: 1s;
+  animation-delay: 1s !important;
 }
 
+.anim-four {
+  animation-delay: 1.5s !important;
+}
 
 .animate {
   animation-duration: 1s;
@@ -32,4 +35,40 @@
   to {
     opacity: 1;
   }
+}
+
+.type {
+  border-right: 2px solid transparent;
+  -white-space: nowrap;
+  height: 25px;
+  overflow: hidden;
+  animation: blink-cursor 500ms infinite normal, typing 4s steps(45) 0s normal both;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-cursor {
+  from {
+    border-right-color: transparent;
+  }
+
+  to {
+    border-right-color: white;
+  }
+}
+
+.code-pink {
+  color: #fb85e5;
+}
+
+.code-blue {
+  color: #82feff;
 }
