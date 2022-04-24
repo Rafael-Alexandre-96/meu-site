@@ -112,9 +112,21 @@ body::-webkit-scrollbar-thumb {
   flex: 1;
 }
 
+.show-sm {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .col-sm {
     flex-direction: column;
+  }
+
+  .hidden-sm {
+    display: none;
+  }
+
+  .show-sm {
+    display: block;
   }
 }
 
@@ -185,7 +197,7 @@ section a {
 /*=================================================*/
 
 #home {
-  font-size: min(4vw, 1.5rem);
+  font-size: min(4.5vw, 1.5rem);
 }
 
 .text-code, .text-code * {

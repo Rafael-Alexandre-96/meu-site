@@ -39,7 +39,7 @@
 
 .type {
   border-right: 2px solid transparent;
-  -white-space: nowrap;
+  white-space: nowrap;
   height: 25px;
   overflow: hidden;
   animation: blink-cursor 500ms infinite normal, typing 4s steps(45) 0s normal both;
@@ -63,6 +63,17 @@
   to {
     border-right-color: white;
   }
+}
+
+.blink {
+  animation: blink-anim 500ms infinite normal;
+}
+
+@keyframes blink-anim {
+  to {
+    opacity: 0%;
+  }
+  
 }
 
 .code-pink {
