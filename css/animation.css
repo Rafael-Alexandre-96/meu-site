@@ -20,7 +20,6 @@
 .animate {
   animation-duration: 1s;
   animation-fill-mode: both;
-  z-index: -1;
 }
 
 .fadeIn {
