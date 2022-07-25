@@ -1,3 +1,4 @@
+<IfModule mod_rewrite.c>
 # Ativação do RewriteEngine que nos permite gerenciar as rotas
 RewriteEngine On
 
@@ -10,3 +11,4 @@ RewriteCond %{REQUEST_FILENAME} !-f
 
 # Rewrite Rule, redirecionar todas as requests para o index.php 
 RewriteRule ^(.+)$ index.php [QSA,L]
+</IfModule>
